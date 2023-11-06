@@ -1,4 +1,5 @@
 {
+  "scheme": "my-scheme",
   "expo": {
     "name": "nav-net",
     "slug": "nav-net",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
